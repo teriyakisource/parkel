@@ -1,0 +1,5 @@
+username=$1
+
+if [ls /lxc/ | grep $username] 
+    
+fi
