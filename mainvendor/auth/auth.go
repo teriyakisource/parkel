@@ -6,25 +6,16 @@ import (
 	"encoding/json"
 )
 
-type jsonRes map[string]interface{}
-
 type userdetails struct {
 	username string
 	email    string
 	password string
 }
 
-type user struct {
-	username string, 
-	password string,
-}
-
-
 func readFile(filename string) []byte {
 	data, err := ioutil.ReadFile(filename)
 	if err != nil {
 		return []byte("")
-
 	}
 	return data
 }
@@ -36,7 +27,10 @@ func parsejson(data []byte) interface{} {
 }
 
 func createUser(det userdetails) bool {
-	fmt.Println("hello")
+	
+
+
+
 	return true
 }
 
@@ -50,6 +44,11 @@ func validateEmail(e string) bool {
 	return false
 }
 
+func checkDupEmail(e string) bool {
+	var emails interface{} = parsejson(readFile("../../db/emails_in_use.json"))
+	print(emails)
+}
+
 func generateToken() string {
 	chr := "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	str := ""
@@ -61,13 +60,6 @@ func generateToken() string {
 
 	return str
 }
-
-
-
-func create_user(client user) bool {
-
-}
-
 
 func main() {
 

@@ -1,1 +1,1 @@
-
+sudo lxc start * 

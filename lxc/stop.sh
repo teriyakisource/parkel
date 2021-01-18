@@ -1,0 +1,1 @@
+sudo lxc stop *
