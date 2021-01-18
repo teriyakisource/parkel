@@ -1,5 +1,2 @@
-username=$1
-
-if [ls /lxc/ | grep $username] 
-    
-fi
+lxc launch ubuntu:20.04 $1
+lxc exec $1 bash
