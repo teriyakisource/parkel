@@ -13,21 +13,16 @@
 
 <details>
 <summary>parkel.web</summary>
-<br>
 A web IDE written in HTML CSS JS using microsoft's monaco editor framework
 </details>
 
-<br>
 <details>
 <summary>parkel.local</summary>
-<br>
 A CLI tool written in rust that runs locally
 </details>
 
-<br>
 <details>
 <summary>parkel.djs</summary>
-<br>
 A Discord Bot because its (barely) possible
 </details>
 
