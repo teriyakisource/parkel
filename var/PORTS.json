@@ -1,0 +1,5 @@
+{
+    "webserver": 3000,
+    "socketserver": 2113,
+    "gitserver": 332
+}
