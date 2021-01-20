@@ -1,1 +1,2 @@
-sudo lxc start * 
+lxc start parkel
+

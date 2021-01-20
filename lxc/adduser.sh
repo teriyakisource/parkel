@@ -1,0 +1,1 @@
+lxc exec parkel useradd $1 --password $2

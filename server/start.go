@@ -4,6 +4,12 @@ import (
 	"fmt"
 )
 
+func startAuthServer() {
+    
+}
+
+
+
 func main() {
 
 }
