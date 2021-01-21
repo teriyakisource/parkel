@@ -1,2 +1,0 @@
-lxc start parkel
-
