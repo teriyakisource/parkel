@@ -3,7 +3,7 @@
 
 <hr>
 
-<h2>Installation</h2>
+<h2>Building</h2>
 <p>Currently only supported in ubuntu >=18.04
 <br>
 
